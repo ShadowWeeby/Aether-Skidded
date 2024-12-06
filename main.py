@@ -8,7 +8,7 @@ from core.Bot import AutoShardedBot
 from settings.config import BotConfigClass
 BotConfig = BotConfigClass()
 
-discord.http.Route.BASE = "http://localhost:3000/api/v9"
+# discord.http.Route.BASE = "http://localhost:3000/api/v9"
 
 bot = AutoShardedBot()
 
